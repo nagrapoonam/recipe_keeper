@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Keeper</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Recipe Keeper</h1>
+
+    <!-- Recipe Input Section -->
+    <h2>Add Recipe</h2>
+    <form>
+        <label for="recipeName">Recipe Name:</label>
+        <input type="text" id="recipeName" name="recipeName" required>
+
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" placeholder="List ingredients separated by commas" required></textarea>
+
+        <label for="method">Method:</label>
+        <textarea id="method" name="method" placeholder="Steps for preparation" required></textarea>
+
+        <label for="recipeImage">Recipe Image URL:</label>
+        <input type="url" id="recipeImage" name="recipeImage" placeholder="http://example.com/my-dish.jpg">
+
+
+        <button type="submit">Add Recipe</button>
+    </form>
+
+    <!-- Recipe Display Area -->
+    <h2>Your Recipes</h2>
+    <div id="recipeList">
+        <!-- Recipes will be displayed here -->
+    </div>
+
+     <!-- JavaScript code  -->
+    <script type="text/javascript" src="script.js"></script>
+
+
+</body>
+</html>
+
