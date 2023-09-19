@@ -17,3 +17,4 @@
 ### local storage feature to persistently store your recipes, ensuring they remain available even after a page refresh or browser restart.
 
 # DEMO:
+![GitHub Logo](demo1.jpeg)
